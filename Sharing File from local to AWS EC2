@@ -1,0 +1,11 @@
+Sharing File from local to AWS EC2
+-------------------------------------------------
+1 - update all the pacakges in your instance.
+2. Change the ownership of the directory(Where you will put files) to user you are using
+```
+sudo chown ec2-user /directory
+```
+3. From local machine go to shell and run the command
+```
+scp -i ./shadaab-key-pair.pem -r ./File_Name ec2-user@3.135.247.120:/var/shadaab-pass
+```
