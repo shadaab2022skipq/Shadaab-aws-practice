@@ -1,4 +1,5 @@
 Sharing File from local to AWS EC2
+Reference: https://www.youtube.com/watch?v=qnn8iVcXJxw
 -------------------------------------------------
 1 - update all the pacakges in your instance.
 2. Change the ownership of the directory(Where you will put files) to user you are using
